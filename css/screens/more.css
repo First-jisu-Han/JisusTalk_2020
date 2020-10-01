@@ -23,7 +23,7 @@
   align-items: center;
 }
 .more-suggestions__icons__icon {
-  margin-right: 25px;
+  margin-right: 45px;
 }
 
 .more-suggestions__icon-image {
@@ -41,4 +41,27 @@
 .more-suggestions__icon-image i {
   font-size: 45px;
   color: white;
+}
+
+@keyframes complaintBig {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translateY(30px) scale(2);
+  }
+}
+
+.more-suggestions__icon-image .fa-bullhorn {
+  background-color: tomato;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.more-suggestions__icon-image .fa-bullhorn:hover {
+  animation: complaintBig 2s ease-in-out infinite;
 }

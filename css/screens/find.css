@@ -14,7 +14,7 @@
 .recommended-friends span {
   display: block;
   text-align: center;
-  margin: 110px 0px;
+  margin: 85px 0px;
   /* display 자체가 inline으로 설정되어 있기 떄문에 margin 적용이 안된다.
   같은 recommended-frineds div 에 있기 때문이다  */
   color: rgba(0, 0, 0, 0.4);

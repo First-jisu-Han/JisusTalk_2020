@@ -30,7 +30,7 @@
 #chat-screen .alt-header {
   width: 100%;
   /*  width: 100%; 을 줘야지 icon들이 밀리지 않는다 */
-  background-color: #abc1d1;
+  background-color: gray;
   box-sizing: border-box;
   top: 0;
 }

@@ -1,11 +1,11 @@
 #chat-screen {
-  background-color: #abc1d1;
+  background-color: gray;
   height: 200vh;
 }
 
 .chat__timestamp {
   color: white;
-  background-color: #92a4b2;
+  background-color: gray;
   padding: 14px;
   font-size: 15px;
   border-radius: 15px;
@@ -15,7 +15,7 @@
 #chat-screen .alt header {
   position: fixed;
   width: 100%;
-  background-color: #abc1d1;
+  background-color: gray;
 }
 
 .reply {
